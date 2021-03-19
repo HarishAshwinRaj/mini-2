@@ -1,16 +1,16 @@
 import React,{Component} from "react";
 import ReactDOM from "react-dom";
 
-class App extends Component{
-  render(){
+export default function App( Component ){
+
     return(
       <div>
-    <div className = "container "><p>
-      harish ash raj
-    </p></div>
+<div className ="container hell">
+<p> hell is finer than heaven</p>
+</div>
       </div>
     )
-  }
+
 }
 
 ReactDOM.render(<App/>,document.getElementById("app"));
